@@ -21,7 +21,7 @@ Because of the little amount of labeled data available, deep neural networks can
 We chose the architecture described in [
 Lecoutre et al (2017)](http://www.lamsade.dauphine.fr/~bnegrevergne/webpage/documents/2017_rasta.pdf), which is ResNet50 trained on ImageNet. The advantage of using a residual network is its' ability to learn something new on top of something already learnt. Another benefit is that we can train more layers, resulting in more fine-grained features. This is possible because we preserve the signal through the network using shortcut connections and identity blocks, avoiding the problem of vanishing gradients.
 
-![ResNet50](https://lh5.googleusercontent.com/FzJ7fT88EnJ2CxaWMnwt6QQAMH53rde8UmVEuBCtfYxjdnlitIplfJFbi3SrFeo9krhgMvjJds38oJnLz8J1=s0)
+![ResNet50](https://lh4.googleusercontent.com/srBJZGyRjz4WfhVmfcE0ktf_Z91-wV0SarCnqXoaC3sKa3C4MOopDI3Lwjj6sSBV3Dbtr1uP7-qKxg=w1920-h974-rw)
 
 B represents a bottleneck block (shown in detail below).
 
